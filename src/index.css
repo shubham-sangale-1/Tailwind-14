@@ -1,0 +1,135 @@
+header {
+  height: 90vh;
+  background-image: url("https://img2.shaadi.com/assests/2024/images/shaadi-north-desktop.webp");
+  background-size: cover;
+  background-position: center;
+}
+#book {
+  margin-top: 200px;
+}
+
+#form-book {
+  background-color: rgba(0, 0, 0, 0.6); /* Black background with 60% opacity */
+  padding: 20px; /* Optional: Add padding for better spacing */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  width: 66%;
+  margin-left: 20%;
+}
+.inp1 {
+  width: 150px;
+}
+
+.textGold {
+  color: #d2b17c;
+}
+.bgGold {
+  background-color: #d2b17c;
+  color: #201530;
+}
+
+#heading {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  background-color: #201530;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 20px;
+}
+#heading div {
+  padding: 25px 25px;
+}
+#heading div h1 {
+  font-size: 35px;
+  font-family: "Dancing Script", cursive;
+}
+#heading div img {
+  width: 250px;
+}
+
+body {
+  background-color: #f1f1f2;
+}
+#steps {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+#steps div {
+  text-align: center;
+}
+#steps div p {
+  color: #00bcd5;
+  display: block;
+  margin-top: 88px;
+  /* margin-left: 35px; */
+  font-size: 26px;
+}
+
+#steps div span {
+  padding: 50px;
+  border-radius: 50%;
+  font-size: 32px;
+  color: white;
+  background-color: #00bcd5;
+}
+#steps div h6 {
+  margin-top: 10px;
+  width: 100%;
+}
+
+#photos > div {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px 35px;
+}
+
+.card1 {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* max-width: 30%;   */
+  text-align: center;
+}
+
+.card1 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card1 h2 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+
+.card1 p {
+  padding: 0 1em;
+  color: #666;
+}
+
+.card1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 90, 96);
+  margin-top: 55px;
+  font-size: 28px;
+  text-align: center;
+  color: white;
+  padding: 18px;
+}
+footer button {
+  border: 2px solid white;
+  padding: 4px 5px;
+  margin-left: 15px;
+  font-size: 21px;
+  margin-top: 5px;
+}
